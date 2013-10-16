@@ -1,30 +1,5 @@
 <?php
-	/**
-	 * SIMPLE CAPTCHA IMAGE SCRIPT
-	 * Copyright (C) 2010  Constantin Boiangiu  (http://www.php-help.ro)
-	 * 
-	 * This program is free software: you can redistribute it and/or modify
-	 * it under the terms of the GNU General Public License as published by
-	 * the Free Software Foundation, either version 3 of the License, or
-	 * (at your option) any later version.
-	 * 
-	 * This program is distributed in the hope that it will be useful,
-	 * but WITHOUT ANY WARRANTY; without even the implied warranty of
-	 * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	 * GNU General Public License for more details.
-	 * 
-	 * You should have received a copy of the GNU General Public License
-	 * along with this program.  If not, see <http://www.gnu.org/licenses/>.
-	 **/
-
-	/*
-		we start by setting our security number
-		that will verify if our user is human
-		and not some pesky robot.
-		Note that session_start() must be set BEFORE
-		sending anything else to the brower (no echo or 
-		html tags above the session_start() function)
-	*/
+	
 	session_start();
 	/*
 		here you can do your verifications from forms
