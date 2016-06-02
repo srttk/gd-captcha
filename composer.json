@@ -1,4 +1,6 @@
 {
+    "name": "saratonite/gd-captcha",
+    "description": "Simple GD Captcha ",
 	"autoload": {
 		"psr-4": {
 			"Saratonite\\Tools\\":"src/"
