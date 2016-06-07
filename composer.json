@@ -5,5 +5,7 @@
 		"psr-4": {
 			"Saratonite\\Tools\\":"src/"
 		}
-	}
+	},
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
